@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Calculator.JavaCal">
+  <grid id="27dc6" binding="JavaCal" layout-manager="GridLayoutManager" row-count="5" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="5" vgap="-1">
+    <margin top="15" left="20" bottom="15" right="20"/>
+    <constraints>
+      <xy x="34" y="69" width="478" height="513"/>
+    </constraints>
+    <properties/>
+    <border type="bevel-raised">
+      <font name="Times New Roman" size="14" style="1"/>
+      <title-color color="-14801221"/>
+    </border>
+    <children>
+      <component id="bc543" class="javax.swing.JTextField" binding="TextDisplay">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="10" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14" style="1"/>
+        </properties>
+      </component>
+      <component id="bc786" class="javax.swing.JButton" binding="BEqual">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="60" height="40"/>
+            <preferred-size width="60" height="40"/>
+            <maximum-size width="120" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14" style="1"/>
+          <text value="="/>
+        </properties>
+      </component>
+      <component id="29f10" class="javax.swing.JButton" binding="BBack">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="60" height="40"/>
+            <preferred-size width="60" height="40"/>
+            <maximum-size width="120" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14" style="1"/>
+          <text value="&lt;"/>
+        </properties>
+      </component>
+      <component id="a9f75" class="javax.swing.JButton" binding="BDevide">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="60" height="40"/>
+            <preferred-size width="60" height="40"/>
+            <maximum-size width="120" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14" style="1"/>
+          <text value="/"/>
+        </properties>
+      </component>
+      <component id="cecc5" class="javax.swing.JButton" binding="BMultiply">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="60" height="40"/>
+            <preferred-size width="60" height="40"/>
+            <maximum-size width="120" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14" style="1"/>
+          <text value="*"/>
+        </properties>
+      </component>
+      <component id="a0217" class="javax.swing.JButton" binding="BPersentage">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="60" height="40"/>
+            <preferred-size width="60" height="40"/>
+            <maximum-size width="120" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14" style="1"/>
+          <text value="%"/>
+        </properties>
+      </component>
+      <component id="74636" class="javax.swing.JButton" binding="BPlus">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="60" height="40"/>
+            <preferred-size width="60" height="40"/>
+            <maximum-size width="120" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14" style="1"/>
+          <text value="+"/>
+        </properties>
+      </component>
+      <component id="b3783" class="javax.swing.JButton" binding="BCE">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="60" height="40"/>
+            <preferred-size width="60" height="40"/>
+            <maximum-size width="120" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14" style="1"/>
+          <text value="CE"/>
+        </properties>
+      </component>
+      <component id="2c045" class="javax.swing.JButton" binding="B3">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="60" height="40"/>
+            <preferred-size width="60" height="40"/>
+            <maximum-size width="120" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14" style="1"/>
+          <text value="3"/>
+        </properties>
+      </component>
+      <component id="ef941" class="javax.swing.JButton" binding="B2">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="60" height="40"/>
+            <preferred-size width="60" height="40"/>
+            <maximum-size width="120" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14" style="1"/>
+          <text value="2"/>
+        </properties>
+      </component>
+      <component id="4e800" class="javax.swing.JButton" binding="B1">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="60" height="40"/>
+            <preferred-size width="60" height="40"/>
+            <maximum-size width="120" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14" style="1"/>
+          <text value="1"/>
+        </properties>
+      </component>
+      <component id="86464" class="javax.swing.JButton" binding="B6">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="60" height="40"/>
+            <preferred-size width="60" height="40"/>
+            <maximum-size width="120" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14" style="1"/>
+          <text value="6"/>
+        </properties>
+      </component>
+      <component id="15284" class="javax.swing.JButton" binding="B9">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="60" height="40"/>
+            <preferred-size width="60" height="40"/>
+            <maximum-size width="120" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14" style="1"/>
+          <text value="9"/>
+        </properties>
+      </component>
+      <component id="c46b6" class="javax.swing.JButton" binding="BCl">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="60" height="40"/>
+            <preferred-size width="60" height="40"/>
+            <maximum-size width="120" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14" style="1"/>
+          <text value="C"/>
+        </properties>
+      </component>
+      <component id="d09f4" class="javax.swing.JButton" binding="BDot">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="60" height="40"/>
+            <preferred-size width="60" height="40"/>
+            <maximum-size width="120" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14" style="1"/>
+          <text value="."/>
+        </properties>
+      </component>
+      <component id="bf28b" class="javax.swing.JButton" binding="B8">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="60" height="40"/>
+            <preferred-size width="60" height="40"/>
+            <maximum-size width="120" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14" style="1"/>
+          <text value="8"/>
+        </properties>
+      </component>
+      <component id="72235" class="javax.swing.JButton" binding="B5">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="60" height="40"/>
+            <preferred-size width="60" height="40"/>
+            <maximum-size width="120" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14" style="1"/>
+          <text value="5"/>
+        </properties>
+      </component>
+      <component id="f409c" class="javax.swing.JButton" binding="B4">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="60" height="40"/>
+            <preferred-size width="60" height="40"/>
+            <maximum-size width="120" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14" style="1"/>
+          <text value="4"/>
+        </properties>
+      </component>
+      <component id="bb6b7" class="javax.swing.JButton" binding="B7">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="60" height="40"/>
+            <preferred-size width="60" height="40"/>
+            <maximum-size width="120" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14" style="1"/>
+          <text value="7"/>
+        </properties>
+      </component>
+      <component id="16f01" class="javax.swing.JButton" binding="B0">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="60" height="40"/>
+            <preferred-size width="60" height="40"/>
+            <maximum-size width="120" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14" style="1"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="8c459" class="javax.swing.JButton" binding="BMinas">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="60" height="40"/>
+            <preferred-size width="60" height="40"/>
+            <maximum-size width="120" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="14" style="1"/>
+          <text value="-"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
